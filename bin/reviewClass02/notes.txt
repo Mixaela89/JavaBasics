@@ -1,0 +1,3 @@
+Logical operators: help us test more than one condition. we jave && and || and !
+ logical operators help us reduce the number of if conditions that we write in certain cases 
+ syntax if (condition1 && condition 2) {}

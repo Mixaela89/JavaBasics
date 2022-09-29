@@ -1,0 +1,38 @@
+Type casting:primitives 
+ converting one data type to another;
+- for example we can convert a short to a byte and long to float
+two types implicit/widening/automatic and explicit/narrowing/manual
+no data loss in automatic conversion
+explicit manual casting
+used when we use a code that was already written by someone
+or merging codes within a group projects, its saving time
+syntax: () if we convert a long to int: 
+long var1=12355453;  int var2=(int)var1;/narrowing/manual
+double var3=var2; //implicit /widening/automatic
+ex float f=250.f; double d=f; /implicit
+________________________________________________________
+
+if else condition help us write code that can take the decision based on data
+why we should learn: 
+when we solve real life problem like testing website our programs need
+to make a lot of decisions. 
+example: if (the given username and password matches) {go to home page}
+ else {give us warning}
+syntax boolean isHungry=true; 
+if (isHungry) { System.out.println("please eat smth")}
+else {system.out.println("lets build java program")}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

@@ -1,0 +1,32 @@
+Type casting:
+Converting the data types from one to another. We have two types of type casting. 
+ - explicit/narrowing/manual   
+ when we go from a bigger data type to a smaller one
+ -implicit/widening/automatic 
+ when we go from smaller to larger data type. 
+ byte - short, char - int - long- float - double 
+ byte (8 bits inside of byte means it can contain 8 ones or 8 zeros)
+ short (16 bits) char (16bits) < int(32bits) <long (64 bits) < 
+ float (32 bits but it contains many decimals when represented)
+ double (64 bits) 
+  - why we need type casting: when we work in teams we might need to convert data from different data types. 
+  when we are working with math sometimes we need to get rid of decimal part as we are only intersted in the whole numberr
+  - what is the syntax: Explicit/narrowing int box=1000; byte box2=(byte) box; 
+  syntax for wideding short box1=250; int box2=box1; 
+  
+  ____________________________________________________________________
+  If statement: 
+  if else conditions allow us to write programs that can take decision based on some condition and provided data 
+  
+  why we should lean about if else conditions - to teach program to make decisions 
+  what is the syntax - if condition 
+  boolean rich=true; 
+  if (rich)
+  {
+   System.out.println("Let's buy a Jet or Island"
+  }
+  
+  
+  
+  
+  
